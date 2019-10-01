@@ -3,22 +3,37 @@
         <title>
             Profil Saya
         </title>
+        <link rel="stylesheet" href="Alternative/Style.css">
+        <style>
+            .data-ktp { 
+                color: green;
+            }
+
+            .data-ktp-nonprimary {
+                background: yellow;
+            }
+
+            #data-ktp-primary {
+                text-decoration: underline;
+            }
+        </style>
     </head>
+
     <body>
         <img src="https://i.ytimg.com/vi/XPS9bMt0Fi0/hqdefault.jpg" alt="">
         <img src="Berk.gif" alt="">
         <br>
-        <em>Biodata</em>
+        <em style="color: red">BIODATA</em>
         <hr>
 
         <p>
-            <b>Nama: </b> I Made Aradea
+            <b id="data-ktp-primary" class="data-ktp">Nama: </b> I Made Aradea
         </p>
     
-        <b>Gender: </b> Male
+        <b class="data-ktp data-ktp-nonprimary">Gender: </b> Male
         <br><br>
 
-        <b>Umur: </b> 19
+        <b class="data-ktp data-ktp-nonprimary">Umur: </b> 19
 
         <p><b>Hobi:</b></p>
         <ol>
