@@ -4,59 +4,92 @@
             Profil Saya
         </title>
         <link rel="stylesheet" href="Alternative/Style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <style>
-            .data-ktp { 
-                color: green;
+            body {
+                font-family: 'Montserrat', cursive;
+            }
+            .profile-photo {
+                display: inline-block;
+                border: 5px solid #6670c8;
             }
 
-            .data-ktp-nonprimary {
-                background: yellow;
+            .profile-data {
+                border: 1px solid black;
+                border-collapse: collapse;
             }
 
-            #data-ktp-primary {
-                text-decoration: underline;
+            .profile-data th {
+                border: 1px solid black;
+                text-align: center;
+                font-weight: bold;
+                padding: 8px 44px;
+            }
+
+            .profile-data td {
+                padding: 10px;
+                border: 1px solid black;
+            }
+
+            .profile-data td ul,
+            .profile-data td ol {
+                margin: 0;
+                padding: 0;
+                position: relative;
+                left: 20px;
             }
         </style>
     </head>
 
     <body>
-        <img src="https://i.ytimg.com/vi/XPS9bMt0Fi0/hqdefault.jpg" alt="">
-        <img src="Berk.gif" alt="">
-        <br>
-        <em style="color: red">BIODATA</em>
+        <div class="profile-photo">
+                <img height="300" src="https://i.ytimg.com/vi/XPS9bMt0Fi0/hqdefault.jpg" alt="Oltibric">
+        </div>
+      
+        <h1>
+            <em>Biodata</em>
+        </h1>
         <hr>
 
-        <p>
-            <b id="data-ktp-primary" class="data-ktp">Nama: </b> I Made Aradea
-        </p>
-    
-        <b class="data-ktp data-ktp-nonprimary">Gender: </b> Male
-        <br><br>
+        <table class="profile-data">
+            <tr>
+                <th>Nama</th>
+                <th>Gender</th>
+                <th>Umur</th>
+                <th>Hobi</th>
+                <th>Interests</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>I Made Aradea</td>
+                <td>Laki-laki</td>
+                <td>19 Tahun</td>
+                <td>
+                    <ol>
+                        <li>Membaca</li>
+                        <li>Browsing</li>
+                        <li>Gym</li>
+                    </ol>
+                </td>
+                <td> 
+                    <ul>
+                        <li>Kapal</li>
+                        <li>Seni</li>
+                        <li>Aesthetic</li>
+                        <li>History</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                        <li><a href="https://www.pinterest.ca/" target="_blank">Pinterest</a></li>
+                    </ul>
+                </td>
+            </tr>
+         
+        </table>
 
-        <b class="data-ktp data-ktp-nonprimary">Umur: </b> 19
-
-        <p><b>Hobi:</b></p>
-        <ol>
-            <li>Membaca</li>
-            <li>Seni</li>
-            <li>Traveling</li>
-            <li>Gym</li>
-        </ol>
-
-        <p><b>Interest:</b></p>
-        <ul>
-            <li>Kapal</li>
-            <li>Visual Art</li>
-            <li>Musik</li>
-            <li>History</li>
-        </ul>
-
-        <p><b>Link:</b></p>
-        <ul>
-            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
-            <li><a href="https://www.pinterest.ca/" target="_blank">Pinterest</a></li>
-        </ul>
     </body>
 </html>
 
