@@ -1,96 +1,101 @@
 <html>
-    <head>
-        <title>
-            Profil Saya
-        </title>
-        <link rel="stylesheet" href="Alternative/Style.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-        <style>
-            body {
-                font-family: 'Montserrat', cursive;
-            }
-            .profile-photo {
-                display: inline-block;
-                border: 5px solid #6670c8;
-            }
 
-            .profile-data {
-                border: 1px solid black;
-                border-collapse: collapse;
-            }
 
-            .profile-data th {
-                border: 1px solid black;
-                text-align: center;
-                font-weight: bold;
-                padding: 8px 44px;
-            }
+<head>
+    <title>
+        Profil Saya
+    </title>
+    <link rel="stylesheet" href="Alternative/Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-            .profile-data td {
-                padding: 10px;
-                border: 1px solid black;
-            }
+</head>
 
-            .profile-data td ul,
-            .profile-data td ol {
-                margin: 0;
-                padding: 0;
-                position: relative;
-                left: 20px;
-            }
-        </style>
-    </head>
+<body>
+    <div class="container">
+        <div class="row py-md-5">
+            <div class="col-md-4 text-center">
+                <img width="200" height="200"
+                    src="https://res.cloudinary.com/teepublic/image/private/s--vdQnby1m--/t_Preview/b_rgb:9cb58c,c_limit,f_jpg,h_630,q_90,w_630/v1446184496/production/designs/119363_0.jpg"
+                    class="image-thumbnail rounded-circle" alt="Toothless">
+                <h1 class="display-4">Arandeous Varrandez</h1>
+            </div>
 
-    <body>
-        <div class="profile-photo">
-                <img height="300" src="https://i.ytimg.com/vi/XPS9bMt0Fi0/hqdefault.jpg" alt="Oltibric">
+            <div class="col-sm">
+                <div class="table-responsive">
+                    <table class="table text-center table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Nama</th>
+                                <th scope="col">Gender</th>
+                                <th scope="col">Umur</th>
+                                <th scope="col">Hobi</th>
+                                <th scope="col">Interests</th>
+                                <th scope="col">Link</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th scope="row">I Made Aradea</th>
+                                <td>Laki-laki</td>
+                                <td>19 Tahun</td>
+                                <td>
+                                    <ol class="list-group list-group-flush">
+                                        <li class="list-group-item">Membaca</li>
+                                        <li class="list-group-item">Browsing</li>
+                                        <li class="list-group-item">Gym</li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Kapal</li>
+                                        <li class="list-group-item">Seni</li>
+                                        <li class="list-group-item">Aesthetic</li>
+                                        <li class="list-group-item">History</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><a href="https://www.instagram.com/"
+                                                target="_blank">Instagram</a>
+                                        </li>
+                                        <li class="list-group-item"><a href="https://www.youtube.com/"
+                                                target="_blank">Youtube</a></li>
+                                        <li class="list-group-item"><a href="https://www.pinterest.ca/"
+                                                target="_blank">Pinterest</a>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+
+
+                    </table>
+                </div>
+
+
+            </div>
         </div>
-      
-        <h1>
-            <em>Biodata</em>
-        </h1>
-        <hr>
+    </div>
 
-        <table class="profile-data">
-            <tr>
-                <th>Nama</th>
-                <th>Gender</th>
-                <th>Umur</th>
-                <th>Hobi</th>
-                <th>Interests</th>
-                <th>Link</th>
-            </tr>
-            <tr>
-                <td>I Made Aradea</td>
-                <td>Laki-laki</td>
-                <td>19 Tahun</td>
-                <td>
-                    <ol>
-                        <li>Membaca</li>
-                        <li>Browsing</li>
-                        <li>Gym</li>
-                    </ol>
-                </td>
-                <td> 
-                    <ul>
-                        <li>Kapal</li>
-                        <li>Seni</li>
-                        <li>Aesthetic</li>
-                        <li>History</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-                        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
-                        <li><a href="https://www.pinterest.ca/" target="_blank">Pinterest</a></li>
-                    </ul>
-                </td>
-            </tr>
-         
-        </table>
 
-    </body>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
 
 <!--  -->
